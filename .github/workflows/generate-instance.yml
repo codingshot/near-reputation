@@ -10,6 +10,7 @@ on:
 
 jobs:
   GenerateCredInstance:
+    timeout-minutes: 60
     runs-on: ubuntu-latest
     env:
       NODE_OPTIONS: --max_old_space_size=8192
